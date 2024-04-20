@@ -24,7 +24,7 @@ const ImageSlider = ({ images, interval }) => {
     console.log("use effect calling");
    // eslint-disable-next-line react-hooks/exhaustive-dep
     return () => clearInterval(rotateInterval);
-}, [currentIndex, interval]);
+}, [currentIndex, interval,images.length]);
 
   
 
