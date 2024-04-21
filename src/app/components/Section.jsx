@@ -61,7 +61,7 @@ const images = [
   // Add more image URLs here
 ];
   return (
-    <div className=' md:w-full w-[385px] md:h-[724px] h-[571px] absolute top-[740px]   p-[40px] bg-[#4A508E] -z-20  mr-[20px]'>
+    <div className=' md:w-full w-[105%] md:h-[724px] h-[571px] absolute top-[740px]   p-[40px] bg-[#4A508E] -z-20  mr-[20px]'>
         <div className='md:w-[1264px] w-[370px]  md:h-[644px] h-[571px]  gap-[50px] flex flex-col  md:mx-auto md:ml-0 ml-[-41px]  '>
             <div className='md:w-[1264px] w-[360px] h-[540px]  flex flex-col gap-[70px] '>
               <div className=' hidden md:inline w-[518px] h-[85px] flex flex-col  mx-auto justify-between'> 

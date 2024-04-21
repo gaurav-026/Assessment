@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 function Footer() {
   return (
-    <div className='md:w-full w-[385px] md:h-[385px] h-[517px] absolute md:top-[3147px] top-[3100px] bg-[#4A508E] -z-20'>
+    <div className='md:w-full w-[105%] md:h-[385px] h-[517px] absolute md:top-[3147px] top-[3100px] bg-[#4A508E] -z-20'>
         <div className='md:w-[1080px]    absolute h-[229px] top-[40px] left-[180px] '>
           <div className='md:w-[151px] w-[136px] md:h-[116px] h-[114px] absolute  md:left-[928px] left-[-160px] md:top-[30px] top-[280px] flex flex-col gap-[16px]'>
             <div className='md:w-[83px] w-[79px] md:h-[19px]  font-[Urbanist] font-[540] leading-[19.2px] text-[#F8F9FB] tracking-widest text-lg '>Contacts</div>

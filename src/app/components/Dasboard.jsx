@@ -11,12 +11,12 @@ function dasboard() {
   return (
     
     <div className=' md:w-full  w-[385px] '>
-      <div className=' absolute -z-20 md:w-full top-[-50px] lg:h-[1024px]  '>
+      <div className=' absolute -z-20 md:w-full w-[105%] border border-black top-[-50px] lg:h-[1024px]  '>
         <Image src={background} alt='background' className='w-full hidden md:inline ' />
-        <Image src={mobile} alt='mobile' width={420} height={800} className='md:hidden inline  '/>
+        <Image src={mobile} alt='mobile' width={500} height={800} className='md:hidden inline  '/>
       </div>
       <div className='lg:md:w-[28%] w-[300px] lg:md:h-[630px] h-[450px] absolute lg:md:top-[126px] top-[300px] lg:md:left-[850px] left-[-70px] -z-20 ' >
-         <Image src={heroimage} alt='Mobile' className=' absolute left-[105px] shadow-[rgba(0,0,0,0.2)]' width={460} height={630} />
+         <Image src={heroimage} alt='Mobile' className=' absolute left-[105px] shadow-[rgba(0,0,0,0.2)]' width={420} height={630} />
       </div>
       <div className='w-[474px] h-[360px] absolute top-[232px] left-[180px] gap-[50px]  -z-20 hidden lg:md:inline' >
          <div className='w-[474px] h-[256px] gap-[28px]  flex flex-col'>
