@@ -10,7 +10,7 @@ import Link from 'next/link'
 function Navbar() {
   return (
     <div className=' lg:md:fixed '>
-        <div className=" lg:md:w-[1024px] lg:md:h-[90px] w-[300px] h-[120px] absolute z-10 top-[25px] left-8 lg:md:left-[160px] rounded-[35px]  gap-[50px] bg-[rgba(195,195,195,0.5)]  flex justify-center items-center  " >
+        <div className=" lg:md:w-[1024px] lg:md:h-[90px] w-[300px] h-[120px] absolute z-10 top-[25px] left-11 lg:md:left-[160px] rounded-[35px]  gap-[50px] bg-[rgba(195,195,195,0.5)]  flex justify-center items-center  " >
            
               <div className=' lg:md:w-[434px] lg:md:h-[50px] rounded-[25px] '>
                 <div className='lg:md:hidden inline w-[20px] h-[20px] absolute top-[21px] left-[250px] shadow-sm cursor-pointer'><CiMenuBurger /></div>

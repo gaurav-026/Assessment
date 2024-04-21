@@ -40,7 +40,7 @@ function Calculator() {
 
   return (
     <div className=" w-full  h-full    bg-[#8f90a0]  ">
-      <div className="md:w-[866px] w-[324px] h-[729px] md:h-[651px] absolute md:top-[1627px] top-[1350px] left-[18px]  md:left-[290px]  md:-z-20 ">
+      <div className="md:w-[866px]  w-[324px] h-[729px] md:h-[651px] absolute md:top-[1627px] top-[1350px] left-[30px]  md:left-[290px]  md:-z-20 ">
         <div className="md:w-[866px] md:h-[559px] absolute  top-[91px] gap-[50px] flex flex-col ">
           <div className=" md:w-[866px] md:h-[455px] gap-[120px]  flex ">
             <div className="md:w-[572px] md:h-[455px]  ">
@@ -55,14 +55,14 @@ function Calculator() {
               </div>
 
               <div className="md:w-[524.14px] w-[313.88px] md:h-[40px] h-[300px] absolute md:top-[200px] md:mt-[-140px] top-[90px] ">
-                <div className="md:w-[349.09px] w-[241px] md:h-[22px] h-[19px] font-[Urbanist]  font-[500] md:leading-[21.6px] leading-[19.2px] text-[#11151D] md:text-xl md:mt-[116px]">
+                <div className="md:w-[349.09px] w-[271px] md:h-[22px] h-[19px] font-[Urbanist]  font-[500] md:leading-[21.6px] leading-[19.2px] text-[#11151D] md:text-xl md:mt-[116px]">
                   How many followers do you have?
                 </div>
 
                 <div className="md:mt-8 mt-5">
                   <Slider max={1000} step={10} />
                 </div>
-                <div className="md:w-[349.09px]w-[241px] md:h-[22px] h-[19] font-[Urbanist]  font-[500] md:leading-[21.6px] leading-[19.24px] text-[#11151D] text-xl mt-[116px]">
+                <div className="md:w-[349.09px] w-[241px] md:h-[22px] h-[19] font-[Urbanist]  font-[500] md:leading-[21.6px] leading-[19.24px] text-[#11151D] md:text-xl mt-[116px]">
                   How many product do you have?
                 </div>
                 <div className=" md:mt-8 mt-5">
@@ -93,7 +93,7 @@ function Calculator() {
             
           </div>
 
-          <div className=" md:w-[125px] w-[108px] md:h-[54px] h-[43px] md:rounded-[18px] rounded-[12px] bg-[#4A508E] md:pt-[16px] pt-[12px] md:pr-[24px] pr-[20px] md:pb-[12px] pb-[16px] md:pl-[24px] pl-[20px] absolute top-[420px] left-[105px] md:top-[551px] md:left-[358px] md:mx-auto cursor-pointer mb-[20px] hover:scale-[1.2] transition duration-[0.7s] ease-in-out z-10">
+          <div className=" md:w-[125px] w-[108px] md:h-[54px] h-[43px] md:rounded-[18px] rounded-[12px] bg-[#4A508E] md:pt-[16px] pt-[12px] md:pr-[24px] pr-[20px] md:pb-[12px] pb-[16px] md:pl-[24px] pl-[20px] absolute top-[420px] left-[105px] md:top-[551px] md:left-[358px] md:mx-auto cursor-pointer mb-[20px] hover:scale-[1.2] transition duration-[0.7s] ease-in-out ">
             <div
               className="w-[77px] h-[22px] text-lg  font-[Urbanist]  font-[600] leading-[21.6px] text-[#F8F9FB] cursor-pointer  "
               onClick={submit}

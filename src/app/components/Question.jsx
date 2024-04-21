@@ -2,7 +2,7 @@
 import { HiOutlinePlus,HiOutlineMinus } from "react-icons/hi";
 function Question() {
   return (
-    <div className=' md:w-[730px] w-[328px] md:h-[715px] h-[815px] absolute md:top-[2394px] top-[2150px] md:left-[355px] left-[16px]  md:-z-20 '>
+    <div className=' md:w-[730px]  w-[328px] md:h-[715px] h-[815px] absolute md:top-[2394px] top-[2150px] md:left-[355px] left-[29px]  md:-z-20 '>
         <div className=' md:w-[630px] w-[327px] md:h-[92px] h-[69px] md:ml-[56px] ml-[17px] gap-[16px] flex flex-col'>
             <div className='md:w-[460px] w-[270px] md:h-[32px] h-[19px]  font-[Urbanist] md:text-2xl md:mx-auto  font-[700] md:leading-[32.4px] leading-[19.2px] text-black md:tracking-widest'>FREQUENTLY ASKED QUESTIONS</div>
             <div className='md:w-[630px] w-[275px] md:h-[44px] h-[34px] font-[Urbanist] md:text-base  font-[500] md:leading-[21.6px] leading-[16.8px] md:text-center text-black md:tracking-widest'>Quick answers to questions you may have. Can&apos;t find what you&apos;re looking for?<span className=' hidden md:inline bg-gradient-to-r from-[rgba(74,80,142,1)] to-[rgba(103,74,142,1)] inline-block text-transparent bg-clip-text font-[550]' >Check out our full documentation</span></div>

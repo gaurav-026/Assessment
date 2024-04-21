@@ -7,7 +7,7 @@ import { ApiProvider } from "./components/Apicontext";
 import Sidenavbar from "./components/Sidenavbar"
 export default function Home() {
   return (
-    <div >
+    <div>
     <ApiProvider>
        <Navbar />
        <Dasboard/>

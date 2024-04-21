@@ -17,7 +17,7 @@ import Link from 'next/link'
 function page() {
   return (
     <div >
-        <div className=" lg:md:w-[1024px] lg:md:h-[90px] w-[300px] h-[120px] absolute z-10 top-[25px] left-8 lg:md:left-[160px] rounded-[35px]  gap-[50px] bg-[rgba(195,195,195,0.5)]  flex justify-center items-center  " >
+        <div className=" lg:md:w-[1024px] lg:md:h-[90px] w-[300px] h-[120px] absolute z-10 top-[25px] left-11 lg:md:left-[160px] rounded-[35px]  gap-[50px] bg-[rgba(195,195,195,0.5)]  flex justify-center items-center  " >
            
            <div className=' lg:md:w-[434px] lg:md:h-[50px] rounded-[25px] '>
              <div className='lg:md:hidden inline w-[20px] h-[20px] absolute top-[21px] left-[250px] shadow-sm cursor-pointer'><CiMenuBurger /></div>
@@ -54,9 +54,9 @@ function page() {
         
      </div>
         <How/>
-        <div className='md:w-full w-[375px] md:h-[385px] h-[517px] absolute md:top-[2107px] top-[1580px] bg-[#4A508E] -z-20'>
+        <div className='md:w-full w-[375px] md:h-[385px] h-[517px]  absolute md:top-[2107px] top-[1580px] bg-[#4A508E] -z-20'>
         <div className='md:w-[1080px]   absolute h-[229px] top-[40px] left-[180px] '>
-          <div className='md:w-[151px] w-[136px] md:h-[116px] h-[114px] absolute  md:left-[928px] left-[-160px] md:top-[30px] top-[280px] flex flex-col gap-[16px]'>
+          <div className='md:w-[151px] w-[136px] md:h-[116px] h-[114px] absolute   md:left-[928px] left-[-160px] md:top-[30px] top-[280px] flex flex-col gap-[16px]'>
             <div className='md:w-[83px] w-[79px] md:h-[19px]  font-[Urbanist] font-[540] leading-[19.2px] text-[#F8F9FB] tracking-widest text-lg '>Contacts</div>
             <div className=' md:w-[126px] md:h-[20px] w-[126px] h-[20px] md:font-[500] font-[300] flex  text-[14px] gap-[16px]'>
                 <Image src={location} alt='location' width={22} height={17.5} />

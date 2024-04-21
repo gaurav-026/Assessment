@@ -10,7 +10,7 @@ import mobile from "../assests/mobile.png"
 function dasboard() {
   return (
     
-    <div className=' md:w-full  w-[375px] '>
+    <div className=' md:w-full  w-[399px] '>
       <div className=' absolute -z-20 md:w-full top-[-50px] lg:h-[1024px]  '>
         <Image src={background} alt='background' className='w-full hidden md:inline ' />
         <Image src={mobile} alt='mobile' width={420} height={800} className='md:hidden inline  '/>
