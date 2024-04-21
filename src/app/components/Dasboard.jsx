@@ -10,21 +10,21 @@ import mobile from "../assests/mobile.png"
 function dasboard() {
   return (
     
-    <div className=' md:w-full  w-[385px] '>
-      <div className=' absolute -z-20 md:w-full w-[105%] border border-black top-[-50px] lg:h-[1024px]  '>
-        <Image src={background} alt='background' className='w-full hidden md:inline ' />
-        <Image src={mobile} alt='mobile' width={500} height={800} className='md:hidden inline  '/>
+    <div className=' lg:md:w-full  w-[385px] '>
+      <div className=' absolute -z-20 lg:md:w-full w-[105%]  top-[-50px] lg:h-[1024px]  '>
+        <Image src={background} alt='background' className='w-full hidden lg:md:inline ' />
+        <Image src={mobile} alt='mobile' width={500} height={800} className='lg:md:hidden inline  '/>
       </div>
-      <div className='lg:md:w-[28%] w-[300px] lg:md:h-[630px] h-[450px] absolute lg:md:top-[126px] top-[300px] lg:md:left-[850px] left-[-70px] -z-20 ' >
-         <Image src={heroimage} alt='Mobile' className=' absolute left-[105px] shadow-[rgba(0,0,0,0.2)]' width={420} height={630} />
+      <div className='lg:md:w-[28%] xl:w-[28%]  w-[300px] lg:md:h-[630px] h-[450px] absolute lg:md:top-[126px] top-[300px]  lg:md:left-[730px] xl:left-[850px] left-[-70px] -z-20 ' >
+         <Image src={heroimage} alt='Mobile' className=' absolute left-[105px] md:left-[-15px] xl:left-[105px]   shadow-[rgba(0,0,0,0.2)]' width={420} height={630} />
       </div>
-      <div className='w-[474px] h-[360px] absolute top-[232px] left-[180px] gap-[50px]  -z-20 hidden lg:md:inline' >
-         <div className='w-[474px] h-[256px] gap-[28px]  flex flex-col'>
-             <div className='w-[474px] h-[162px] gap-[40px] flex flex-col'>
-                <div className='w-[474px] h-[96px] gap-[40px] font-[Urbanist] font-[700] leading-[48px] text-black text-4xl tracking-[.07em]'>
+      <div className='w-[474px]  h-[360px] absolute top-[232px] left-[180px] gap-[50px]  -z-20 hidden lg:md:inline' >
+         <div className='w-[474px]  h-[256px] gap-[28px]  flex flex-col'>
+             <div className='w-[474px]  h-[162px] gap-[40px] flex flex-col'>
+                <div className='w-[474px] h-[96px]  gap-[40px] font-[Urbanist] font-[700] leading-[48px] text-black text-4xl tracking-[.07em]'>
                   Welcome To India’s First <span className=' bg-gradient-to-r from-[rgba(74,80,142,1)] to-[rgba(103,74,142,1)] inline-block text-transparent bg-clip-text'>Creator’s Marketplace</span> 
                 </div>
-                <div className='w-[368px] h-[26px]  font-[Urbanist] font-[700] text-xl tracking-wide leading-[26.4px] text-black '>
+                <div className='w-[368px] h-[26px]   font-[Urbanist] font-[700] text-xl tracking-wide leading-[26.4px] text-black '>
                   Create your first E-Store @ Zero Cost
                 </div>
              </div>
@@ -34,7 +34,7 @@ function dasboard() {
              </div> </Link>
          </div>
       </div>
-      <div className='w-[284px] h-[160px] mt-[184px] ml-[48px] absolute top-[-210px] rounded-[12px] md:hidden inline '>
+      <div className='w-[284px] border  h-[160px] mt-[184px] ml-[48px] absolute top-[-210px] rounded-[12px] lg:md:hidden inline '>
       <div><div className='w-[280px] h-[58px] mt-[184px] ml-[25px]  font-[Urbanist] text-2xl '>Welcome To India’s First </div>
       <div className=' ml-[50px] mb-[20px] mt-[5px] bg-gradient-to-r from-[rgba(74,80,142,1)] to-[rgba(103,74,142,1)] inline-block text-transparent bg-clip-text font-[Urbanist] absolute top-[205px] text-xl'>Creator’s Marketplace</div> 
        <div className='w-[281px] h-[19px] mt-[9px] mb-[20px] ml-[20px] font-[Urbanist] font-[300]  absolute top-[235px] '>Create your first E-Store @ Zero Cost </div>

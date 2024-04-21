@@ -34,10 +34,10 @@ function Slider(props) {
         step={props.step}
         value={sliderValue} 
         onChange={handleSliderChange} 
-        className="slider  md:w-[400px] md:h-full w-[300px] h-[7.5px] accent-[#4A508E] " 
+        className="slider  lg:md:w-[400px] md:h-full w-[300px] h-[7.5px] accent-[#4A508E] " 
       />
       {/* Display slider value */}
-      <div className="slider-value  font-sans font-semibold  w-[72px] h-[41px] absolute top-[100px] left-[120.8px] bottom-[2px] md:top-[225px] rounded-[15px] border-b-[2px] border-[#4A508E] ">
+      <div className="slider-value  font-sans font-semibold  w-[72px] h-[41px] absolute top-[100px] left-[120.8px] bottom-[2px] lg:md:top-[225px] rounded-[15px] border-b-[2px] border-[#4A508E] ">
       <span  className=" absolute top-[10px] ml-6    ">{sliderValue}k </span></div>
     </div>
   );
