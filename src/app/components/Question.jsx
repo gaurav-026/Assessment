@@ -5,7 +5,7 @@ import { HiOutlinePlus, HiOutlineMinus } from "react-icons/hi";
 
 function Question() {
   return (
-    <div className='lg:md:w-[730px] w-[328px] lg:md:h-[715px] h-[815px] absolute lg:md:top-[2394px] top-[2150px] lg:md:left-[150px] xl:left-[355px] left-[29px] lg:md:-z-20 '>
+    <div className='lg:md:w-[730px] w-[328px] lg:md:h-[715px] h-[815px] absolute lg:md:top-[2394px] top-[2150px] lg:md:left-[150px] xl:left-[355px] 2xl:left-[555px] left-[29px] lg:md:-z-20 '>
       <div className=' lg:md:w-[630px] w-[327px] lg:md:h-[92px] h-[69px] lg:md:ml-[56px] ml-[17px] gap-[16px] flex flex-col'>
         <div className='lg:md:w-[460px] w-[270px] lg:md:h-[32px] h-[19px] font-[Urbanist] lg:md:text-2xl lg:md:mx-auto font-[700] lg:md:leading-[32.4px] leading-[19.2px] text-black lg:md:tracking-widest'>FREQUENTLY ASKED QUESTIONS</div>
         <div className='lg:md:w-[630px] w-[275px] lg:md:h-[44px] h-[34px] font-[Urbanist] lg:md:text-base font-[500] lg:md:leading-[21.6px] leading-[16.8px] lg:md:text-center text-black lg:md:tracking-widest'>Quick answers to questions you may have. Can&apos;t find what you&apos;re looking for?<span className='hidden md:inline bg-gradient-to-r from-[rgba(74,80,142,1)] to-[rgba(103,74,142,1)] inline-block text-transparent bg-clip-text font-[550]'>Check out our full documentation</span></div>

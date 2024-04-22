@@ -51,7 +51,7 @@ function Section() {
             <div className=' w-[465px] h-[48px] font-[Urbanist] font-[700] leading-[48px] text-[#F8F9FB] text-3xl tracking-[.07em] text-center'>Your audience wants links</div>
             <div className=' w-[518px] h-[22px] font-[Urbanist] font-[500] leading-[21.6px] text-[#F8F9FB] tracking-[.09em] text-base'>Make it easy for them by linking products to every post and video</div>
           </div>
-          <div className='hidden lg:md:inline absolute top-[200px] xl:left-[300px] lg:md:left-[150px]'>
+          <div className='hidden lg:md:inline absolute top-[200px] xl:left-[300px] 2xl:left-[550px] lg:md:left-[150px]'>
             <ImageSlider images={images} interval={1500} alt="Payment Sample" />
           </div>
           <div className='lg:md:hidden inline w-[320px] h-[240px] mr-[60px] ml-[50px] rounded-[15px] absolute top-[250px] left-[-5%]'>
@@ -59,7 +59,7 @@ function Section() {
           </div>
         </div>
         <Link href="/nextPage">
-          <div className='hidden lg:md:inline w-[139px] h-[54px] rounded-[18px] absolute xl:left-[610px] lg:md:left-[470px] text-center bg-white pt-[16px] pr-[24px] pb-[16px] pl-[24px] mx-auto hover:scale-[1.2] transition duration-[0.7s] ease-in-out'>
+          <div className='hidden lg:md:inline w-[139px] h-[54px] rounded-[18px] absolute xl:left-[610px] 2xl:left-[850px] lg:md:left-[470px] text-center bg-white pt-[16px] pr-[24px] pb-[16px] pl-[24px] mx-auto hover:scale-[1.2] transition duration-[0.7s] ease-in-out'>
             <div className='w-[91px] h-[22px] font-[Urbanist] font-[600] leading-[21.6px] text-black cursor-pointer'>Try For free</div>
           </div>
         </Link>

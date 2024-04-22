@@ -15,7 +15,7 @@ function dasboard() {
         <Image src={background} alt='background' className='w-full hidden lg:md:inline ' />
         <Image src={mobile} alt='mobile' width={500} height={800} className='lg:md:hidden inline  '/>
       </div>
-      <div className='lg:md:w-[28%] xl:w-[28%]  w-[300px] lg:md:h-[630px] h-[450px] absolute lg:md:top-[126px] top-[300px]  lg:md:left-[730px] xl:left-[850px] left-[-70px] -z-20 ' >
+      <div className='lg:md:w-[28%] xl:w-[28%]  w-[300px] lg:md:h-[630px] h-[450px] absolute lg:md:top-[126px] top-[300px]  lg:md:left-[730px] xl:left-[850px] 2xl:left-[1200px] left-[-70px] -z-20 ' >
          <Image src={heroimage} alt='Mobile' className=' absolute left-[105px] md:left-[-15px] xl:left-[105px]   shadow-[rgba(0,0,0,0.2)]' width={420} height={630} />
       </div>
       <div className='w-[474px]  h-[360px] absolute top-[232px] left-[180px] gap-[50px]  -z-20 hidden lg:md:inline' >
