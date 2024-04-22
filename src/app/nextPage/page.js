@@ -54,7 +54,7 @@ function page() {
         
      </div>
         <How/>
-        <div className='  lg:md:w-full w-[105%] lg:md:h-[385px] h-[517px] absolute lg:md:top-[3147px]  top-[3100px] bg-[#4A508E] -z-20'>
+        <div className='  lg:md:w-full w-[105%] lg:md:h-[385px] h-[517px] absolute lg:md:top-[2247px]  top-[1600px] bg-[#4A508E] -z-20'>
         <div className=' lg:md:w-[840px] xl:w-[1080px]    absolute h-[229px] top-[40px] left-[180px] '>
           <div className='lg:md:w-[151px] w-[136px] lg:md:h-[116px] h-[114px] absolute  lg:md:left-[670px] xl:left-[928px] left-[-160px] lg:md:top-[30px] top-[280px] flex flex-col gap-[16px]'>
             <div className='lg:md:w-[83px] w-[79px] lg:md:h-[19px]  font-[Urbanist] font-[540] leading-[19.2px] text-[#F8F9FB] tracking-widest text-lg '>Contacts</div>

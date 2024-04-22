@@ -34,7 +34,7 @@ function dasboard() {
              </div> </Link>
          </div>
       </div>
-      <div className='w-[284px] border  h-[160px] mt-[184px] ml-[48px] absolute top-[-210px] rounded-[12px] lg:md:hidden inline '>
+      <div className='w-[284px] h-[160px] mt-[184px] ml-[48px] absolute top-[-210px] rounded-[12px] lg:md:hidden inline '>
       <div><div className='w-[280px] h-[58px] mt-[184px] ml-[25px]  font-[Urbanist] text-2xl '>Welcome To India’s First </div>
       <div className=' ml-[50px] mb-[20px] mt-[5px] bg-gradient-to-r from-[rgba(74,80,142,1)] to-[rgba(103,74,142,1)] inline-block text-transparent bg-clip-text font-[Urbanist] absolute top-[205px] text-xl'>Creator’s Marketplace</div> 
        <div className='w-[281px] h-[19px] mt-[9px] mb-[20px] ml-[20px] font-[Urbanist] font-[300]  absolute top-[235px] '>Create your first E-Store @ Zero Cost </div>
