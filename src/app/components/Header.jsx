@@ -9,8 +9,8 @@ import { CiMenuBurger } from "react-icons/ci";
 import Link from 'next/link'
 function Header() {
   return (
-    <div className=' lg:md:fixed '>
-      <div className=" lg:md:w-[824px] xl:w-[1024px] lg:md:h-[90px] w-[300px] h-[120px] absolute z-10 top-[25px] left-11 lg:md:left-[100px]  xl:left-[160px] rounded-[35px]  gap-[50px] bg-[rgba(195,195,195,0.5)]  flex justify-center items-center  " >
+    <div className=' lg:md:fixed'>
+      <div className=" lg:md:w-[824px] xl:w-[1024px] lg:md:h-[90px] w-[300px] h-[120px] absolute z-10 top-[25px] left-11 lg:md:left-[100px]  xl:left-[160px] rounded-[35px]  gap-[50px] bg-[rgba(195,195,195,0.5)]  flex justify-center items-center" >
 
         <div className=' lg:md:w-[434px] lg:md:h-[50px] rounded-[25px] '>
           <div className='lg:md:hidden inline w-[20px] h-[20px] absolute top-[21px] left-[250px] shadow-sm cursor-pointer'><CiMenuBurger /></div>
@@ -20,7 +20,7 @@ function Header() {
             </div>
             <div className=' lg:md:w-[116px] w-[103pxx] lg:text-lg lg:md:h-[19px] h-[17px] absolute top-[11px] left-[46px] lg:md:top-[12px] xl:top-[12px] lg:md:left-[38px] xl:left-[46px] font-[Urbanist] font-[500]  leading-[16.8px] lg:md:leading-[19.2px]    '> <span className=' text-slate-950   '> Search Creators</span></div>
           </div>
-          <Link href="/"> <div className=' lg:md:w-[114px] w-[94px]  lg:md:h-[26px] h-[22px] text-2xl absolute lg:md:top-[31px] top-[20px] left-[20px] lg:md:left-[30.25px] xl:left-[45.25px] font-[Urbanist] font-[700]  leading-[26.4px] text-black  '>Createnary</div></Link>
+          <Link href="/"> <div className=' lg:md:w-[114px] w-[94px]  lg:md:h-[26px] h-[22px] text-2xl absolute lg:md:top-[31px] top-[20px] left-[20px] lg:md:left-[30.25px] xl:left-[45.25px] font-[Urbanist] font-[700]  leading-[26.4px] text-black blur-none'>Createnary</div></Link>
         </div>
         <div className='w-[449.5px] h-[42px] rounded-[15px] hidden lg:md:inline'>
           <div className='w-[123px] h-[42px] absolute top-[24px] lg:md:left-[655.75px] xl:left-[855.75px] rounded-[15px] border border-black flex justify-center items-center gap-[10px]' style={{ padding: "10px,25px,10px,25px" }}>
