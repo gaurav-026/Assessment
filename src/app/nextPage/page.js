@@ -1,4 +1,4 @@
-import How from '@/app/components/How'
+import How from '@/app/components/Getstarted'
 
 import React from 'react'
 import frame from "../assests/Frame.png"

@@ -1,8 +1,4 @@
 "use client"; 
-// components/Sidebar.js
-
-// components/Sidebar.js
-
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Previous from "../assests/previous.png"
@@ -41,10 +37,7 @@ const Sidenavbar = () => {
           </li>
         </ul>
       </div>
-     
-     
     </div>
-   
       </div>
   );
 };

@@ -1,9 +1,8 @@
 "use client"
 
-
 import { HiOutlinePlus, HiOutlineMinus } from "react-icons/hi";
 
-function Question() {
+function Issues() {
   return (
     <div className='lg:md:w-[730px] w-[328px] lg:md:h-[715px] h-[815px] absolute lg:md:top-[2394px] top-[2150px] lg:md:left-[150px] xl:left-[355px] 2xl:left-[555px] left-[29px] lg:md:-z-20 '>
       <div className=' lg:md:w-[630px] w-[327px] lg:md:h-[92px] h-[69px] lg:md:ml-[56px] ml-[17px] gap-[16px] flex flex-col'>
@@ -52,7 +51,5 @@ function Question() {
   );
 }
 
-export default Question;
+export default Issues;
 
-
-//code no. 3

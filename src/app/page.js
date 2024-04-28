@@ -1,17 +1,15 @@
-import Image from "next/image";
-import Link from "next/link";
 import Dasboard from "@/app/components/Dasboard";
-import Navbar from "@/app/components/Navbar";
+import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
-import { ApiProvider } from "./components/Apicontext"; 
-import Sidenavbar from "./components/Sidenavbar"
+import { ApiProvider } from "./components/Context"; 
+import Sidebar from "./components/Sidebar"
 export default function Home() {
   return (
     <div>
     <ApiProvider>
-       <Navbar />
+       <Header />
        <Dasboard/>
-       <Sidenavbar/>
+       <Sidebar/>
        <Footer/>
     </ApiProvider>
       

@@ -3,8 +3,8 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Slider1 from "./Slider1";
 import drop from "../assests/Drop.png";
-import { useApi } from "./Apicontext";
-import Slider from "./Slider";
+import { useApi } from "./Context";
+import Slider from "./Slider2";
 
 
 function Calculator() {
@@ -27,16 +27,10 @@ function Calculator() {
     }
   };
   const submit = async () => {
-    // const setdata= async()=>{
     const data = await Calculate();
     setcal(data);
     console.log("data", data);
-    // }
   };
-
-  // useEffect(()=>{
-
-  // },[Calculate]);
 
   return (
     <div className=" w-full  h-full    bg-[#8f90a0] ">
@@ -90,12 +84,12 @@ function Calculator() {
                 </div>
               </div>
             </div>
-            
+
           </div>
 
-          <div className=" lg:md:w-[125px] w-[108px] lg:md:h-[54px] h-[43px] lg:md:rounded-[18px] rounded-[12px] bg-[#4A508E] lg:md:pt-[16px] pt-[12px] lg:md:pr-[24px] pr-[20px] lg:md:pb-[12px] pb-[16px] lg:md:pl-[24px] pl-[20px] absolute top-[420px] left-[105px] lg:md:top-[551px] lg:md:left-[358px] lg:md:mx-auto cursor-pointer mb-[20px] hover:scale-[1.2] transition duration-[0.7s] ease-in-out ">
+          <div className=" lg:md:w-[125px] w-[108px] lg:md:h-[54px] h-[43px] lg:md:rounded-[18px] rounded-[12px] bg-[#4A508E] lg:md:pt-[16px] pt-[12px] lg:md:pr-[24px] pr-[20px] lg:md:pb-[12px] pb-[16px] lg:md:pl-[24px] pl-[20px] absolute top-[420px] left-[105px] lg:md:top-[551px] lg:md:left-[358px] lg:md:mx-auto cursor-pointer mb-[20px]">
             <div
-              className="w-[77px] h-[22px] text-lg  font-[Urbanist]  font-[600] leading-[21.6px] text-[#F8F9FB] cursor-pointer  "
+              className="w-[77px] h-[22px] text-lg  font-[Urbanist]  font-[600] leading-[21.6px] text-[#F8F9FB] cursor-pointer"
               onClick={submit}
             >
               Calculate
@@ -106,7 +100,7 @@ function Calculator() {
           ESTIMATE EARNING POTENTIAL
         </div>
       </div>
-     
+
     </div>
   );
 }

@@ -59,7 +59,7 @@ function Section() {
           </div>
         </div>
         <Link href="/nextPage">
-          <div className='hidden lg:md:inline w-[139px] h-[54px] rounded-[18px] absolute xl:left-[610px] 2xl:left-[850px] lg:md:left-[470px] text-center bg-white pt-[16px] pr-[24px] pb-[16px] pl-[24px] mx-auto hover:scale-[1.2] transition duration-[0.7s] ease-in-out'>
+          <div className='hidden lg:md:inline w-[139px] h-[54px] rounded-[18px] absolute xl:left-[610px] 2xl:left-[850px] lg:md:left-[470px] text-center bg-white pt-[16px] pr-[24px] pb-[16px] pl-[24px] mx-auto'>
             <div className='w-[91px] h-[22px] font-[Urbanist] font-[600] leading-[21.6px] text-black cursor-pointer'>Try For free</div>
           </div>
         </Link>
@@ -69,7 +69,7 @@ function Section() {
             <div className='lg:md:hidden inline w-[303px] h-[57px] font-[Urbanist] font-[500] leading-[21.6px] text-[#F8F9FB] tracking-[.09em] text-base'>Make it easy for them by linking products to every post and video</div>
           </div>
           <Link href="/nextPage">
-            <div className='lg:md:hidden inline absolute left-[120px] top-[480px] w-[139px] h-[54px] rounded-[18px] bg-white pt-[16px] pr-[24px] pb-[16px] pl-[24px] mx-auto hover:scale-[1.2] transition duration-[0.7s] ease-in-out'>
+            <div className='lg:md:hidden inline absolute left-[120px] top-[480px] w-[139px] h-[54px] rounded-[18px] bg-white pt-[16px] pr-[24px] pb-[16px] pl-[24px] mx-auto '>
               <div className='w-[91px] h-[22px] font-[Urbanist] font-[600] leading-[21.6px] text-black cursor-pointer'>Try For free</div>
             </div>
           </Link>

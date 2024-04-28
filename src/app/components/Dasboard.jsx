@@ -3,9 +3,9 @@ import background from "../assests/background.png"
 import Image from 'next/image'
 import heroimage from "../assests/HeroImage.png"
 import Link from 'next/link'
-import Section from './Section'
+import Section from './SliderSection'
 import Calculator from './Calculator'
-import Question from './Question'
+import Question from './Issues'
 import mobile from "../assests/mobile.png"
 function dasboard() {
   return (
@@ -29,7 +29,7 @@ function dasboard() {
                 </div>
              </div>
              <div className='w-[474px] h-[66px]  font-[Urbanist]  font-[530] leading-[21.6px] text-black text-lg tracking-wide'>Empower your creativity with Createnary. Showcase, sell, and connect with a global audience effortlessly, turn your products into profits.</div>
-             <Link href="/nextPage"><div className=' w-[144px] h-[54px] rounded-[18px] bg-[rgba(74,80,142,1)] pt-[16px] pr-[24px] pb-[16px] pl-[24px] hover:scale-[1.2] transition duration-[0.7s] ease-in-out cursor-pointer' >
+             <Link href="/nextPage"><div className=' w-[144px] h-[54px] rounded-[18px] bg-[rgba(74,80,142,1)] pt-[16px] pr-[24px] pb-[16px] pl-[24px]  cursor-pointer' >
                 <div className='w-[96px] h-[22px]  font-[Urbanist]  font-[600] leading-[21.6px] text-white cursor-pointer '>Get Started</div>
              </div> </Link>
          </div>
@@ -40,8 +40,8 @@ function dasboard() {
        <div className='w-[281px] h-[19px] mt-[9px] mb-[20px] ml-[20px] font-[Urbanist] font-[300]  absolute top-[235px] '>Create your first E-Store @ Zero Cost </div>
        </div>
       
-       <Link href="/nextPage"><div className=' w-[126px] h-[43px] mt-[40px] ml-[60px] rounded-[18px]  bg-[rgba(74,80,142,1)] pt-[12px] pr-[20px] pb-[12px] pl-[20px] hover:scale-[1.2] transition duration-[0.7s] ease-in-out cursor-pointer ' >
-                <div className='w-[86px] h-[19px]  font-[Urbanist]  font-[600] leading-[21.6px] text-white cursor-pointer '>Get Started</div>
+       <Link href="/nextPage"><div className=' w-[126px] h-[43px] mt-[40px] ml-[60px] rounded-[18px]  bg-[rgba(74,80,142,1)] pt-[12px] pr-[20px] pb-[12px] pl-[20px] cursor-pointer ' >
+                <div className='w-[86px] h-[19px]  font-[Urbanist]  font-[600] text-white cursor-pointer'>Get Started</div>
              </div> </Link>
       </div>
       <Section/>

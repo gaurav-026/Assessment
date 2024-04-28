@@ -1,5 +1,5 @@
 // apiContext.js
-"use client"; 
+"use client";
 import React, { createContext, useContext, useState } from 'react';
 
 // Create a new context
@@ -11,9 +11,9 @@ export const useApi = () => useContext(ApiContext);
 // Create a provider component
 export const ApiProvider = ({ children }) => {
   // Define state or functions related to your API
-  const [sliderValue, setSliderValue]= useState([]);
-  const [isValue,setIsValue]=useState(null);
-  const [isNum,setIsNum]=useState(null);
+  const [sliderValue, setSliderValue] = useState([]);
+  const [isValue, setIsValue] = useState(null);
+  const [isNum, setIsNum] = useState(null);
 
   // Example function to fetch data from API
   // const handleSliderChange = (event) => {
